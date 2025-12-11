@@ -1,0 +1,96 @@
+.hero {
+  position: relative;
+  padding: 6rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1b4b, #312e81, #5b21b6);
+  color: #fff;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.15), transparent);
+  pointer-events: none;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: auto;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaBtn {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 10px;
+}
+
+.secondaryBtn {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #312e81 !important;
+  border: none;
+}
+
+.mainSection {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.infoSection {
+  max-width: 700px;
+  margin: auto;
+}
+
+.infoSection h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #312e81;
+}
+
+.infoSection p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

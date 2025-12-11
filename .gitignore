@@ -1,0 +1,35 @@
+# Git Ignore for Hackathon Book Project
+
+# Node.js / JavaScript / TypeScript
+node_modules/
+dist/
+build/
+*.log
+.env*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+dist/
+*.egg-info/
+
+# Docusaurus / Generated files
+.docusaurus/
+.docusaurus-cache/
+.yarn/
+.pnp.*
+
+# Common / OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Gemini-specific ignores
+.gemini/
+.specify/
